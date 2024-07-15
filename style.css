@@ -1,7 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 body {
     margin: 0;
     font-family: Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
+/* Navbar */
 .navbar {
     background-color: #333;
     padding: 1rem;
@@ -34,7 +42,27 @@ body {
     margin: 3px 0;
 }
 
-.footer
+/*Content*/
+
+.homeSection {
+    border: 1px rgb(43, 255, 0) solid;
+    
+}
+
+.homeTitle,.homeParagraph {
+    border: 1px red solid;
+    text-align: center;
+    font-size: 5rem;
+    height: 500px;
+    
+}
+
+.footer {
+    height: 50px;
+    background-color: #333;
+    margin-top: auto;
+
+}
 
 @media (max-width: 768px) {
     .navbar {
