@@ -8,7 +8,10 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    background-image: url(media/splashimg.png);
+    background-size: cover;
 }
+    
 /* Navbar */
 .navbar {
     background-color: #333;
@@ -45,23 +48,38 @@ body {
 /*Content*/
 
 .homeSection {
-    border: 1px rgb(43, 255, 0) solid;
+    color: white;
+    
     
 }
 
 .homeTitle,.homeParagraph {
-    border: 1px red solid;
-    text-align: center;
-    font-size: 5rem;
-    height: 500px;
     
+    text-align: left;
+    padding-left: 10%;
+        
+}
+
+.homeTitle {
+    padding-top: 100px;
+    font-size: 8rem;
+}
+
+.homeParagraph {
+    font-size: 4rem;
 }
 
 .footer {
     height: 50px;
     background-color: #333;
     margin-top: auto;
+    text-align: center;
 
+}
+
+.footerText {
+    padding-top: 12px;
+    color: white;
 }
 
 @media (max-width: 768px) {
