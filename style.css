@@ -104,17 +104,30 @@ body {
     background-color: #18191e;
     background-image: none;
     border: 3px red solid;
+    color: var(--primary-text-color);
+    
 }
 
 .whatIs, .history {
     text-align: center;
     border: 3px yellow solid;
-    
-    
+    height: 400px;  
+    display: flex;
 }
 
 .whatIs {
     background-color: #727e99;
+    
+}
+
+.whatIsText {
+    border: 3px red solid;
+    
+}
+
+img {
+    height: 300px;
+    width: 300px;
 }
 
 /*FOOTER*/
