@@ -111,8 +111,9 @@ body {
 .whatIs, .history {
     text-align: center;
     border: 3px yellow solid;
-    height: 400px;  
+    height: 450px;  
     display: flex;
+    
 }
 
 .whatIs {
@@ -120,14 +121,31 @@ body {
     
 }
 
+.history {
+    margin-top: 75px;
+}
+
 .whatIsText {
     border: 3px red solid;
-    
+    width: 30%;
+    padding-left: 500px;    
+}
+
+.historyText {
+    width: 30%;
+    padding-right: 400px; 
+    padding-left: 50px;  
 }
 
 img {
-    height: 300px;
-    width: 300px;
+    height: 450px;
+    width: 450px;
+    border-radius: 20px;
+    
+}
+
+.historyImage {
+    margin-left: 550px;
 }
 
 /*FOOTER*/
