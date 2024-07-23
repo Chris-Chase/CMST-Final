@@ -111,30 +111,43 @@ body {
 .whatIs, .history {
     text-align: center;
     border: 3px yellow solid;
-    height: 450px;  
+    height: 100vh;  
     display: flex;
     
 }
 
 .whatIs {
-    background-color: #727e99;
+    /*background-color: #727e99;*/
+    background-image: url(media/cryptology.jpg);
+    background-size: cover;
+    
     
 }
 
 .history {
-    margin-top: 75px;
+    
+    background-image: url(media/LoneSpartan.png);
+    background-size: cover;
 }
 
 .whatIsText {
     border: 3px red solid;
     width: 30%;
-    padding-left: 500px;    
+    height: 50%;
+    
+    margin-left: 100px;
+    margin-top: 100px;
+        
 }
 
 .historyText {
     width: 30%;
-    padding-right: 400px; 
-    padding-left: 50px;  
+    height: 30%;
+    margin-left: 900px;
+    margin-top: 100px;
+    padding: 50px;
+    border: 3px red solid;
+    color: black; 
 }
 
 img {
