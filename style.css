@@ -113,7 +113,7 @@ body {
 }
 
 .whatIs, .history {
-    text-align: center;
+    text-align:justify;
     border: 3px yellow solid;
     height: 100vh;  
     display: flex;
@@ -137,11 +137,13 @@ body {
 .whatIsText {
     border: 3px red solid;
     width: 30%;
-    height: 50%;
-    
+    height: 50%;    
     margin-left: 100px;
-    margin-top: 100px;
-        
+    margin-top: 100px;        
+}
+
+.whatIsText h2 {
+    font-size: 2rem;
 }
 
 .historyText {
