@@ -12,9 +12,10 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    background-image: url(media/splashimg.png);
-    background-size: cover;
+    
 }
+
+
     
 /* Navbar */
 .navbar {
@@ -58,8 +59,12 @@ body {
 /*Home*/
 
 .homeSection {
-    color: var(--primary-text-color); 
-    
+    color: var(--primary-text-color);     
+}
+
+.homeBody {
+    background-image: url(media/splashimg.png);
+    background-size: cover;
 }
 
 .homeTitle,.homeParagraph {
@@ -113,10 +118,12 @@ body {
 }
 
 .whatIs, .history {
-    text-align:justify;
-    border: 3px yellow solid;
-    height: 100vh;  
+    text-align: justify;
+    
+    width: 1200px;  
+    height: 700px;
     display: flex;
+    border-radius: 50px;
     
 }
 
@@ -124,22 +131,27 @@ body {
     /*background-color: #727e99;*/
     background-image: url(media/CryptographyArtboard.png);
     background-size: cover;
-    
-    
+    margin-top: 130px;
+    margin-left: 500px;
 }
 
 .history {
-    
+    margin-top: 200px;
     background-image: url(media/LoneSpartan.png);
     background-size: cover;
 }
 
 .whatIsText {
-    border: 3px red solid;
-    width: 30%;
-    height: 50%;    
-    margin-left: 100px;
-    margin-top: 100px;        
+    
+    width: 600px;
+    margin-left: -100px;
+    height: 500px;    
+    background-color: rgb(218, 218, 217);
+    margin-top: 60px;  
+    border-radius: 50px; 
+    box-shadow: 1.5rem 1.5rem black;   
+    color: black; 
+    padding: 50px; 
 }
 
 .whatIsText h2 {
