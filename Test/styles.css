@@ -125,7 +125,7 @@ body {
 }
 
 .whatIsImage {
-    background-image: url(media/crytographylaptop.jpg);
+    background-image: url(/media/crytographylaptop.jpg);
     background-size: cover;
     width: 50%;
     height: 750px;
@@ -156,7 +156,7 @@ body {
 }
 
 .historyImage {
-    background-image: url(media/LoneSpartan.png);
+    background-image: url(/media/LoneSpartan.png);
     background-size: cover;
     width: 50%;
     height: 750px;
