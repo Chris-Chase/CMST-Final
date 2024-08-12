@@ -181,7 +181,15 @@ body {
 
 /*Famous*/
 
-.famousTitle {
+.famousBody {
+    background-color: #18191e;
+    background-image: none;
+    
+    color: var(--primary-text-color);
+    
+}
+
+.historyTitle, .famousTitle {
     height: auto;
     padding-top: 100px;
     text-align: center;
