@@ -197,34 +197,84 @@ body {
 }
 
 .skytale, .caesar, .zodiac, .enigma {
-    height: 100vh;
+    
     width: 100%;
-    border: 1px red solid;
+    
     display: flex;
     justify-content: center;
-}
-
+} 
 
 
 .skytaleText, .caesarText, .zodiacText, .enigmaText {
-    width: 40%;
-    height: 500px;
-    border: 1px green solid;
+    width: 25%;
+    height: 600px;
+    
     margin-top: 15%;
+    background-color: #363d4b;
+    border-radius: 5% 0% 0% 5%;
+}
+
+.skytaleText > p, .skytaleText > h2 , .caesarText > p, .caesarText > h2, .zodiacText > p, .zodiacText > h2, .enigmaText > p, .enigmaText > h2  {
+    padding: 50px;
 }
 
 .skytaleImg, .caesarImg, .zodiacImg, .enigmaImg {
     width: 40%;
-    height: 500px;
-    border: 1px rgb(169, 11, 184) solid;
+    height: 600px;
+    
     margin-top: 15%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 0% 5% 5% 0%;
 }
 
 .skytaleText, .skytaleImg {
     margin-top: 8%;
 }
 
+/*LEARN*/
 
+.learnBody {
+    background-color: #18191e;
+    background-image: none;
+    display: flex;
+    color: black;
+    
+}
+
+.sectionContainer {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin-top: 6%;
+    background-color: #18191e;;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 800px;
+}
+
+textarea, select, input {
+    width: 100%;
+    margin: 10px 0;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 100px;
+}
+
+button {
+    margin: 5px;
+    padding: 5px 10px;
+}
 
 
 /*FOOTER*/
