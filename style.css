@@ -59,12 +59,63 @@ body {
 /*Home*/
 
 .homeSection {
-    color: var(--primary-text-color);     
+    color: var(--primary-text-color);
+    height: 100vh; 
+    background-image: url(media/splashimg.png); 
+    background-size: cover;   
 }
 
-.homeBody {
-    background-image: url(media/splashimg.png);
+.aboutSection {
+    height: 100%;
+    width: 100%;   
+    background-color: #363d4b; 
+    background-image: url(media/35514484_geometric_pattern_navy_background.jpg);
     background-size: cover;
+}
+
+.textContainer {
+    color: var(--primary-text-color);
+    background-color: #515152cc;
+    margin: 100px 0 0 10%;
+    width: 75%;
+    padding: 20px;
+    border-radius: 50px;
+    box-shadow: 1rem 1rem rgb(129, 129, 129);   
+}
+
+.whatisTitle {
+    font-size: 5rem;
+}
+
+.whatIsSpan1, .whatIsSpan2 {
+    font-size: 2rem;
+}
+
+.whatIsP1 {
+    font-size: 2.5rem;
+    margin-top: 35px;
+}
+
+.whatIsP2 {
+    font-style: italic;
+    font-size: 2rem;
+    margin-top: 10px;
+}
+
+.whatIsP3 {
+    font-size: 3rem;
+    margin-top: 20px;
+}
+
+.videoContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.aboutVideo {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 30px;
 }
 
 .homeTitle,.homeParagraph {
@@ -110,9 +161,9 @@ body {
 /*ABOUT*/
 
 .aboutBody {
-    background-color: #18191e;
-    background-image: none;
-    
+    background-color: #2e2c4e;
+    background-color: #464647;
+    background-image: url("data:image/svg+xml,%3Csvg width='52' height='26' viewBox='0 0 52 26' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%237f7f7f' fill-opacity='0.26'%3E%3Cpath d='M10 10c0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6h2c0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4v2c-3.314 0-6-2.686-6-6 0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6zm25.464-1.95l8.486 8.486-1.414 1.414-8.486-8.486 1.414-1.414z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
     color: var(--primary-text-color);
     
 }
@@ -124,8 +175,37 @@ body {
     display: flex;
 }
 
+.historyTitle1, .historyTitle2, .historyTitle3, .historyTitle4 {
+    font-size: 2rem;
+}
+
+.historyParagraph1a, .historyParagraph1b, .historyParagraph1c {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+}
+
+.historyParagraph2a, .historyParagraph2b {
+    font-size: 1.7rem;
+    margin-bottom: 10px;
+}
+
+.historyParagraph3a {
+    font-size: 1.7rem;
+    margin-top: 10px;
+}
+
+.historyParagraph4a, .historyParagraph4b {
+    font-size: 1.7rem;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.pTitle {
+    font-weight: 700;
+}
+
 .whatIsImage {
-    background-image: url(media/crytographylaptop.jpg);
+    
     background-size: cover;
     width: 50%;
     height: 750px;
@@ -133,6 +213,49 @@ body {
     margin-top: 7%;
     border-radius: 50px;
     
+}
+
+.middleageImg {
+    background-image: url(media/history/alkindi.png);
+    background-size: cover;
+    width: 50%;
+    height: 750px;
+    margin-left: -20%;
+    margin-top: 7%;
+    border-radius: 50px;
+    
+}
+
+.historyImage {
+    background-image: url(media/history/hieroglyphics.png);
+    background-size: cover;
+    width: 50%;
+    height: 750px;
+    margin-left: 20%;
+    margin-top: 7%;
+    border-radius: 50px;
+    
+}
+
+.centuryImg {
+    background-image: url(media/history/turing.png);
+    background-size: cover;
+    width: 50%;
+    height: 750px;
+    margin-left: 20%;
+    margin-top: 7%;
+    border-radius: 50px;
+    
+}
+
+.modernImg {
+    background-image: url(media/history/aeskey.png);
+    background-size: cover;
+    width: 50%;
+    height: 750px;
+    margin-left: -20%;
+    margin-top: 7%;
+    border-radius: 50px;
 }
 
 .whatIsText {
@@ -155,16 +278,7 @@ body {
     display: flex;
 }
 
-.historyImage {
-    background-image: url(media/LoneSpartan.png);
-    background-size: cover;
-    width: 50%;
-    height: 750px;
-    margin-left: 20%;
-    margin-top: 7%;
-    border-radius: 50px;
-    
-}
+
 
 .historyText {
     height: 500px;
@@ -182,8 +296,9 @@ body {
 /*Famous*/
 
 .famousBody {
-    background-color: #18191e;
-    background-image: none;
+    background-color: #2e2c4e;
+    background-color: #464647;
+    background-image: url("data:image/svg+xml,%3Csvg width='52' height='26' viewBox='0 0 52 26' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%237f7f7f' fill-opacity='0.26'%3E%3Cpath d='M10 10c0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6h2c0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4v2c-3.314 0-6-2.686-6-6 0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6zm25.464-1.95l8.486 8.486-1.414 1.414-8.486-8.486 1.414-1.414z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
     
     color: var(--primary-text-color);
     
@@ -204,6 +319,10 @@ body {
     justify-content: center;
 } 
 
+.enigma {
+    margin-bottom: 100px;
+}
+
 
 .skytaleText, .caesarText, .zodiacText, .enigmaText {
     width: 25%;
@@ -215,7 +334,7 @@ body {
 }
 
 .skytaleText > p, .skytaleText > h2 , .caesarText > p, .caesarText > h2, .zodiacText > p, .zodiacText > h2, .enigmaText > p, .enigmaText > h2  {
-    padding: 50px;
+    padding: 30px;
 }
 
 .skytaleImg, .caesarImg, .zodiacImg, .enigmaImg {
@@ -232,11 +351,20 @@ body {
     margin-top: 8%;
 }
 
+.famousTitle2 {
+    font-size: 2.5rem;
+}
+
+.famousParagraph {
+    font-size: 1.2rem;
+}
+
 /*LEARN*/
 
 .learnBody {
-    background-color: #18191e;
-    background-image: none;
+    background-color: #2e2c4e;
+    background-color: #464647;
+    background-image: url("data:image/svg+xml,%3Csvg width='52' height='26' viewBox='0 0 52 26' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%237f7f7f' fill-opacity='0.26'%3E%3Cpath d='M10 10c0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6h2c0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4v2c-3.314 0-6-2.686-6-6 0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6zm25.464-1.95l8.486 8.486-1.414 1.414-8.486-8.486 1.414-1.414z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
     display: flex;
     color: black;
     
@@ -246,12 +374,12 @@ body {
     font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center;    
     margin-top: 6%;
-    background-color: #18191e;;
+    background-color: #2e2c4e;
+    background-color: #464647;
+background-image: url("data:image/svg+xml,%3Csvg width='52' height='26' viewBox='0 0 52 26' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%237f7f7f' fill-opacity='0.26'%3E%3Cpath d='M10 10c0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6h2c0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4v2c-3.314 0-6-2.686-6-6 0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6zm25.464-1.95l8.486 8.486-1.414 1.414-8.486-8.486 1.414-1.414z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
-
 .container {
     background-color: white;
     padding: 20px;
@@ -274,6 +402,24 @@ textarea {
 button {
     margin: 5px;
     padding: 5px 10px;
+}
+
+.videos {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.videos1 {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.videos > iframe, .videos1 > iframe {
+    
+    margin: 25px;
+    border-radius: 20px;
 }
 
 
