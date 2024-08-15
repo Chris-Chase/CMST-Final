@@ -293,6 +293,38 @@ body {
     box-shadow: 1.5rem 1.5rem rgb(250, 192, 2);    
 }
 
+/*MODERN*/
+.modern > h2 {
+    font-size: 4rem;
+    text-align: center;
+    margin: 100px;
+}
+
+.modernContainer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.symmetric, .asymmetric {
+    width: 45%;
+    height: 100%;
+    background-color: #7a7a7a;
+    box-shadow: 1.5rem 1.5rem rgb(250, 192, 2);  
+    margin-bottom: 100px;
+    border-radius: 20px;
+}
+
+.symmetric > h3, .asymmetric > h3 {
+    text-align: center;
+    margin: 10px;
+    font-size: 2rem;
+}
+
+.symmetric > p, .asymmetric > p {
+    margin: 35px;
+    font-size: 1.7rem;
+}
+
 /*Famous*/
 
 .famousBody {
@@ -327,14 +359,16 @@ body {
 .skytaleText, .caesarText, .zodiacText, .enigmaText {
     width: 25%;
     height: 600px;
-    
+    text-overflow: ellipsis;
+    overflow: hidden;
     margin-top: 15%;
     background-color: #363d4b;
     border-radius: 5% 0% 0% 5%;
 }
 
 .skytaleText > p, .skytaleText > h2 , .caesarText > p, .caesarText > h2, .zodiacText > p, .zodiacText > h2, .enigmaText > p, .enigmaText > h2  {
-    padding: 30px;
+    padding: 20px;
+    
 }
 
 .skytaleImg, .caesarImg, .zodiacImg, .enigmaImg {
@@ -421,6 +455,17 @@ button {
     margin: 25px;
     border-radius: 20px;
 }
+
+/*REFERENCES*/
+
+.references {
+    width: 100%;
+    color: var(--primary-text-color);
+
+    margin-top: 100px;
+}
+
+
 
 
 /*FOOTER*/
